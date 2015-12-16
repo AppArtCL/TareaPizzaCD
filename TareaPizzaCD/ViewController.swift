@@ -8,6 +8,9 @@
 
 import UIKit
 
+var detallePizza = ["0", "0", "0"]
+var detalleIngredientes = ["0", "0", "0", "0", "0", "0", "0", "0", "0"]
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {

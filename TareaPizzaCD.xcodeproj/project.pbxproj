@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		623F3DC51C1FC165009D076E /* ConfirmacionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623F3DC41C1FC165009D076E /* ConfirmacionViewController.swift */; };
 		62C3AE071C1E2D1000849C0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C3AE061C1E2D1000849C0D /* AppDelegate.swift */; };
 		62C3AE091C1E2D1000849C0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C3AE081C1E2D1000849C0D /* ViewController.swift */; };
 		62C3AE0C1C1E2D1000849C0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62C3AE0A1C1E2D1000849C0D /* Main.storyboard */; };
 		62C3AE0E1C1E2D1000849C0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62C3AE0D1C1E2D1000849C0D /* Assets.xcassets */; };
 		62C3AE111C1E2D1000849C0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62C3AE0F1C1E2D1000849C0D /* LaunchScreen.storyboard */; };
+		62C3AE1B1C1E56A400849C0D /* TamanoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C3AE1A1C1E56A400849C0D /* TamanoViewController.swift */; };
+		62C3AE1D1C1E673700849C0D /* MasaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C3AE1C1C1E673700849C0D /* MasaViewController.swift */; };
+		62C3AE1F1C1E6E4800849C0D /* QuesoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C3AE1E1C1E6E4800849C0D /* QuesoViewController.swift */; };
+		62C3AE211C1E755F00849C0D /* IngredientesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C3AE201C1E755F00849C0D /* IngredientesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		623F3DC41C1FC165009D076E /* ConfirmacionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmacionViewController.swift; sourceTree = "<group>"; };
 		62C3AE031C1E2D1000849C0D /* TareaPizzaCD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TareaPizzaCD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62C3AE061C1E2D1000849C0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62C3AE081C1E2D1000849C0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,10 @@
 		62C3AE0D1C1E2D1000849C0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62C3AE101C1E2D1000849C0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62C3AE121C1E2D1000849C0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62C3AE1A1C1E56A400849C0D /* TamanoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TamanoViewController.swift; path = ../TamanoViewController.swift; sourceTree = "<group>"; };
+		62C3AE1C1C1E673700849C0D /* MasaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasaViewController.swift; sourceTree = "<group>"; };
+		62C3AE1E1C1E6E4800849C0D /* QuesoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuesoViewController.swift; sourceTree = "<group>"; };
+		62C3AE201C1E755F00849C0D /* IngredientesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,11 @@
 			children = (
 				62C3AE061C1E2D1000849C0D /* AppDelegate.swift */,
 				62C3AE081C1E2D1000849C0D /* ViewController.swift */,
+				62C3AE1A1C1E56A400849C0D /* TamanoViewController.swift */,
+				62C3AE1C1C1E673700849C0D /* MasaViewController.swift */,
+				62C3AE1E1C1E6E4800849C0D /* QuesoViewController.swift */,
+				62C3AE201C1E755F00849C0D /* IngredientesViewController.swift */,
+				623F3DC41C1FC165009D076E /* ConfirmacionViewController.swift */,
 				62C3AE0A1C1E2D1000849C0D /* Main.storyboard */,
 				62C3AE0D1C1E2D1000849C0D /* Assets.xcassets */,
 				62C3AE0F1C1E2D1000849C0D /* LaunchScreen.storyboard */,
@@ -135,8 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62C3AE211C1E755F00849C0D /* IngredientesViewController.swift in Sources */,
+				62C3AE1D1C1E673700849C0D /* MasaViewController.swift in Sources */,
+				623F3DC51C1FC165009D076E /* ConfirmacionViewController.swift in Sources */,
 				62C3AE091C1E2D1000849C0D /* ViewController.swift in Sources */,
 				62C3AE071C1E2D1000849C0D /* AppDelegate.swift in Sources */,
+				62C3AE1B1C1E56A400849C0D /* TamanoViewController.swift in Sources */,
+				62C3AE1F1C1E6E4800849C0D /* QuesoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +304,7 @@
 				62C3AE171C1E2D1000849C0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
